@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 
-const Component = (props) => {
+const Component = ({ error }) => {
     
-    const [error, setError] = useState(false);
+//     const [error, setError] = useState(false);
 
   return (
     <>
